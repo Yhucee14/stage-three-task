@@ -28,10 +28,12 @@ const Header = () => {
   return (
     <ThemeProvider theme={theme}>
     <AppBar position='static' sx={{
-        padding: 1,
+        padding: 10,
         marginTop: 3,
         background: 'transparent', 
-        boxShadow: 'none'
+        boxShadow: 'none',
+        paddingTop: 0,
+        paddingBottom: 5,
     
       }}>
         <Toolbar sx={{
