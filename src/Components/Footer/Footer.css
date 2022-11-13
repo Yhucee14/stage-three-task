@@ -1,3 +1,16 @@
 .cenfoot{
     display: flex;
+    width: 30%;
+}
+
+.leftfoot{
+    display: flex;
+    width: 40%;
+    margin-left: 100px;
+}
+
+.rightfoot{
+    display: flex;
+    width: 20%;
+    margin-left: 150px;
 }

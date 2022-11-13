@@ -38,10 +38,10 @@ const Footer = () => {
 
         <Toolbar sx={{
         display: 'flex',
-        justifyContent: 'space-between',
+    
     
       }}> 
-            <div className='cenfoot'>
+            <div className='leftfoot'>
             <IconButton size='large' edge='start' aria-label='logo' >
             <img src={token} alt="logo" /> 
             </IconButton>
@@ -54,7 +54,7 @@ const Footer = () => {
            fontFamily: [
             'AirbnbCereal_W_Bd',
           ].join(','),}}>
-              
+            
             </Typography>
             </div>
            
@@ -73,7 +73,7 @@ const Footer = () => {
             </Typography>
             </div>
 
-            <div className='cenfoot'>
+            <div className='rightfoot'>
             <IconButton size='large' edge='start' aria-label='logo' >
             <img src={sea} alt="logo" /> 
             </IconButton>
