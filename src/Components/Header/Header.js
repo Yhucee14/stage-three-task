@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../Header/House.svg';
-import name from '../Header/name.svg';
+import Group from '../Header/Group.png';
+// import name from '../Header/name.svg';
 import {AppBar, Toolbar, IconButton, Stack, Button} from '@mui/material';
 import { ThemeProvider, createMuiTheme } from '@mui/material/styles';
 
@@ -29,11 +29,13 @@ const Header = () => {
     <ThemeProvider theme={theme}>
     <AppBar position='static' sx={{
         padding: 10,
-        marginTop: 3,
+        marginTop: 2,
         background: 'transparent', 
         boxShadow: 'none',
-        paddingTop: 0,
+        paddingTop: 5,
         paddingBottom: 5,
+        paddingLeft: 15,
+        paddingRight: 15,
     
       }}>
         <Toolbar sx={{
@@ -42,11 +44,11 @@ const Header = () => {
     
       }}>
             <IconButton size='large' edge='start' aria-label='logo' style={{marginTop: -10}}>
-            <img src={logo} alt="logo" /> 
-            <img src={name} alt="name" style={{
+            <img src={Group} alt="logo" /> 
+            {/* <img src={name} alt="name" style={{
            marginTop: 6,
            padding: 3
-        }}/>
+        }}/> */}
             </IconButton>
 
 
