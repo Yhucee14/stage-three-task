@@ -1,0 +1,32 @@
+.purplecon{
+    display: flex;
+    background-color: #A02279;
+    color: white;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.purplewhite{
+    width: 50%;
+    display: block;
+    padding: 50px;
+    font-family: Red Rose;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.purplewhite2 h6{
+    font-family: Red Rose;
+font-size: 18px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+width: 365px;
+
+}

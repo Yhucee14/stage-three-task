@@ -1,0 +1,39 @@
+.cardbox{
+    padding: 10px;
+}
+
+.card{
+    padding: 10px; 
+    height: 360px;
+    border-radius: 20px;
+}
+
+.cardmed{
+    border-radius: 15px;
+    margin-top: 8px;
+}
+
+.dking{
+    margin-left: -12px;
+}
+
+.avail{
+    margin-right: -12px;
+}
+
+.rate{
+    margin-left: -12px;
+    margin-top: 7px;
+}
+
+.cardcon{
+    padding-top: 5px;
+}
+
+.boxcon{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+

@@ -1,8 +1,8 @@
 import React from 'react'
 import Group from '../Header/Group.png';
-// import name from '../Header/name.svg';
 import {AppBar, Toolbar, IconButton, Stack, Button} from '@mui/material';
 import { ThemeProvider, createMuiTheme } from '@mui/material/styles';
+
 
 const theme = createMuiTheme({
     typography: {
