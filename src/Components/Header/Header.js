@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Group from '../Header/Group.png';
 import {AppBar, Toolbar, IconButton, Stack, Button} from '@mui/material';
 import { ThemeProvider, createMuiTheme } from '@mui/material/styles';
+import Wallet from '../Wallet';
 
 
 const theme = createMuiTheme({
@@ -25,6 +26,9 @@ const theme = createMuiTheme({
 
 
 const Header = () => {
+    const [openWallet, setOpenModal] = useState(false)
+
+
   return (
     <ThemeProvider theme={theme}>
     <AppBar position='static' sx={{
@@ -60,12 +64,19 @@ const Header = () => {
                 <Button sx={{ color: 'text.primary', paddingRight: 5, paddingLeft: 5 }}>Community</Button>
             </Stack>
 
+            <div>
             <Button variant='contained' sx={{
                 bgcolor: '#A02279',
                 borderRadius: 2
-            }}>
-                Connect wallet
+            }} onClick={() => setOpenModal(true)}>
+                Connect wallet 
             </Button>
+
+            <Wallet open={openWallet} onClose={() => setOpenModal(false)} />
+            </div>
+          
+
+           
           
         </Toolbar>
       

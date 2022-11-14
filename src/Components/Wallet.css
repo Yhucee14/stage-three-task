@@ -1,0 +1,76 @@
+.mod{
+    color: black;
+    background: white;
+    width: 600px;
+    height: 326px;
+    padding: 2px;
+    position: absolute;
+    top: 450%;
+    left: 30%;
+    z-index: 800;
+    border-radius: 16px;
+    display: block;
+    border: 1px solid #CFD8DC;
+}
+
+.modbtn{
+    padding: 5px;
+    display: block;
+}
+
+.modcover{
+    display: flex;
+    padding-left: 33px;
+    font-family: Red Rose;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.modwall{
+    width: 90%;
+    text-align: left;
+    /* height: 30px; */
+/* width: 182px; */
+left: 32px;
+border-radius: nullpx;
+
+}
+
+
+.choose{
+    padding: 12px 10px 12px 20px;
+    font-family: Red Rose;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+margin-left: 10px;
+}
+
+.but{
+    height: 68px;
+width: 536px;
+left: 32px;
+/* top: 68px; */
+border-radius: 12px;
+padding: 12px 20px 12px 20px;
+border: 1px solid #CFD8DC;
+
+
+}
+
+.but1{
+    height: 68px;
+width: 536px;
+left: 32px;
+/* top: 68px; */
+border-radius: 12px;
+padding: 12px 20px 12px 20px;
+
+border: 1px solid #CFD8DC;
+}
