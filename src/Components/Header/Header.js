@@ -32,19 +32,17 @@ const Header = () => {
   return (
     <ThemeProvider theme={theme}>
     <AppBar position='static' sx={{
-        padding: 10,
+   
         marginTop: 2,
         background: 'transparent', 
         boxShadow: 'none',
         paddingTop: 5,
-        paddingBottom: 5,
-        paddingLeft: 15,
-        paddingRight: 15,
+        paddingBottom: 0,
     
       }}>
         <Toolbar sx={{
         display: 'flex',
-        justifyContent: 'space-between',
+      
     
       }}>
             <IconButton size='large' edge='start' aria-label='logo' style={{marginTop: -10}}>
@@ -56,18 +54,20 @@ const Header = () => {
             </IconButton>
 
 
-            <Stack direction='row' spacing='2' style={{padding: 3}}>
+            <Stack direction='row' spacing='2' style={{padding: 2,
+            marginLeft: 42,}}>
                 <Button sx={{ 
-                    color: 'text.primary', paddingRight: 5, paddingLeft: 5}}>Home</Button>
-                <Button sx={{ color: 'text.primary', paddingRight: 5, paddingLeft: 5 }}>Place to stay</Button>
-                <Button sx={{ color: 'text.primary', paddingRight: 5, paddingLeft: 5 }}>NFTs</Button>
-                <Button sx={{ color: 'text.primary', paddingRight: 5, paddingLeft: 5 }}>Community</Button>
+                    color: 'text.primary', paddingRight: 2, paddingLeft: 2}}>Home</Button>
+                <Button sx={{ color: 'text.primary', paddingRight: 2, paddingLeft: 2, width: '192px', }}>Place to stay</Button>
+                <Button sx={{ color: 'text.primary', paddingRight: 2, paddingLeft: 2 }}>NFTs</Button>
+                <Button sx={{ color: 'text.primary', paddingRight: 2, paddingLeft: 2 }}>Community</Button>
             </Stack>
 
             <div>
             <Button variant='contained' sx={{
                 bgcolor: '#A02279',
-                borderRadius: 2
+                borderRadius: 2,
+                marginLeft: 12,
             }} onClick={() => setOpenModal(true)}>
                 Connect wallet 
             </Button>

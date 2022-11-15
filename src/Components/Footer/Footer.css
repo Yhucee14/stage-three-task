@@ -5,12 +5,10 @@
 
 .leftfoot{
     display: flex;
-    width: 40%;
-    margin-left: 100px;
+    width: 30%;
 }
 
 .rightfoot{
     display: flex;
     width: 20%;
-    margin-left: 150px;
 }

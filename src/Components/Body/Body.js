@@ -60,7 +60,7 @@ const Body = () => {
                             type='text'
                             label='search for location'
                             color='secondary'
-                            sx={{ width: 460,}}/>
+                            sx={{ width: 300,}}/>
 
 <Button variant='contained' size="small" sx={{ bgcolor: '#A02279', paddingLeft: 10, paddingRight: 10, borderRadius: 0.5, marginRight: 15, }}>
                                     Search
